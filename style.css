@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: #2a2b2b;
+  }
+
+  a{
+    text-decoration: none;
+    color: #ffff;
+  }
+ 
+  .start{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    color: #ffff;
+    background-color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .start_options{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .start_options a:hover{
+    color: red;
+  }
+  .container{
+    margin: auto;
+  }
+  .category{
+    /* height: calc(100vh - 30px); */
+    height: 100vh;
+    background-size: cover;
+  }
+  #search{
+    background-image: url(./imagenes/buscador2.jpg);
+  }
+  #terror{
+    background-image: url(./imagenes/terror.jpg);
+  }
+  #action{
+    background-image: url(./imagenes/buscador.jpg);
+  }
+  #child{
+    background-image: url(./imagenes/infantil.jpg);
+  }
+  #race{
+    background-image: url(./imagenes/carrera.jpg);
+  }
+  #sport{
+    background-image: url(./imagenes/deporte.jpg);
+  }
+
+
+footer{
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+
+
+
+  
+
+  
